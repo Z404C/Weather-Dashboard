@@ -2,7 +2,9 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+body{
 
+}
 
 
 
@@ -18,6 +20,7 @@ h1{
 
 .search-sec h2{
 
+    
     
 }
 
@@ -35,6 +38,48 @@ button{
     background-color: #6991e3;
     display: block;
     
+}
+
+
+.container{
+   
+    
+}
+
+
+#big-card{
+    border-color: black;
+    border: 3px;
+    border-style: solid;
+    padding-top: 3px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.fiveday-header{
+    
+}
+
+
+.fiveday-forecast{
+    color: white;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+#card1, 
+#card2,
+#card3,
+#card4,
+#card5{
+    background: #323d4f;
+    flex-direction: column;
+    
+
 }
 
 
